@@ -60,6 +60,8 @@ namespace SampleApp
             {
                 Console.Write("# ");
                 string message = Console.ReadLine();
+                if (message == null)
+                    return;
                 writer.Write(message);
             }
         }

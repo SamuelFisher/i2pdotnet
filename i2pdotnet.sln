@@ -1,18 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{037BFA10-F5D5-47EE-B50E-B201ABBD0EA8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E2A07CB-CF76-4E62-9174-F38EC4682B25}"
 	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "i2pdotnet", "src\i2pdotnet\i2pdotnet.xproj", "{F4297911-C03F-4B59-8EA7-43811F687E1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "i2pdotnet", "src\i2pdotnet\i2pdotnet.csproj", "{F4297911-C03F-4B59-8EA7-43811F687E1C}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SampleApp", "src\SampleApp\SampleApp.xproj", "{A62C6EBE-77FA-4CF2-BAF6-AA302E5048B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApp", "src\SampleApp\SampleApp.csproj", "{A62C6EBE-77FA-4CF2-BAF6-AA302E5048B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
